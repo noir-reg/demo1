@@ -1,0 +1,33 @@
+<!--Classes-->
+<classes>
+    <class name = "test.Test1" />
+    <class name = "test.Test2" />
+</classes>
+<!--Packages-->
+
+<packages>
+    <package name="test"/>
+</packages>
+
+<!-- Methods -->
+
+<classes>
+    <class name="test.Test1">
+        <methods>
+            <include name="testGetPowerForIntFunctionGivenRightArguementRunsWell" />
+        </methods>
+    </class>			 
+</classes>
+
+<!-- Combine -->
+ 
+<classes>	
+    <class name="test.Test1">
+        <methods>
+            <include name="testGetPowerForIntFunctionGivenRightArguementRunsWell" />
+        </methods>
+    </class>
+    <class name="test.Test2" />   
+</classes>
+
+

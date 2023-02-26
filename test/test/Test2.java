@@ -15,6 +15,7 @@ import demo.Demo;
 public class Test2 {
     @Test()
     public void testIsPrimeFunctionGivenRightArguementRunsWell(){
+        System.out.println("testIsPrimeFunctionGivenRightArguementRunsWell()");
         Assert.assertEquals(Demo.isPrime(5),true);
     }
     

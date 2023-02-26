@@ -17,11 +17,13 @@ public class Test1 {
 
     @Test()
     public void testGetPowerForIntFunctionGivenRightArguementRunsWell() {
+        System.out.println("testGetPowerForIntFunctionGivenRightArguementRunsWell()");
         Assert.assertEquals(Demo.getPowerForInt(2, 3), 8);
     }
 
     @Test(expectedExceptions = IllegalArgumentException.class)
     public void testGetPowerForIntFunctionGivenWrongArguementThrowsException() {
+        System.out.println("testGetPowerForIntFunctionGivenWrongArguementThrowsException()");
         Demo.getPowerForInt(2, -1);
     }
 }
