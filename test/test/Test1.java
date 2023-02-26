@@ -24,6 +24,6 @@ public class Test1 {
     @Test(expectedExceptions = IllegalArgumentException.class)
     public void testGetPowerForIntFunctionGivenWrongArguementThrowsException() {
         System.out.println("testGetPowerForIntFunctionGivenWrongArguementThrowsException()");
-        Demo.getPowerForInt(2, -1);
+        Demo.getPowerForInt(0,0);
     }
 }
